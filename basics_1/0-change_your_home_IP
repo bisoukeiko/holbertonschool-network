@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that change localhost ip and facebook ip
+ifconfig localhost 127.0.0.2
+ifconfig facebook.com 8.8.8.8
