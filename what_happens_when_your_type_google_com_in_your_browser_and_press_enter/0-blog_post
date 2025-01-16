@@ -1,0 +1,27 @@
+## What Happens When You Type "https://www.google.com" in Your Browser and Press Enter
+
+### DNS request
+    DNS resolution: Your browser looks up the IP address of "google.com" using DNS (Domain Name System), so it knows where to send the request.
+
+### TCP/IP
+    Request hits the server IP on the appropriate port: The request is sent to the IP address found, typically on port 80 for non-encrypted or port 443 for encrypted traffic (HTTPS).
+
+### HTTPS/SSL
+    Traffic is encrypted: If it's HTTPS, your request is encrypted, ensuring privacy and security.
+
+### Firewall
+    Traffic goes through a firewall: The request passes through a firewall that checks for any potential threats or rules.
+
+### Load-balancer
+    Request is distributed via a load balancer: The request might be sent to different servers based on a load balancer, which spreads the traffic across multiple servers to prevent overload.
+
+### Web server
+    Web server answers the request by serving a web page: The web server takes the request and prepares the necessary response, which is typically the HTML content of a webpage.
+
+### Application server
+    Application server generates the web page: The web server may pass the request to an application server, which handles complex logic and generates the actual content.
+
+### Database
+    Application server requests data from the database: If needed, the application server will ask the database for information (search results) to include in the web page.
+
+After all these steps, your browser receives the final web page and displays it for you.
